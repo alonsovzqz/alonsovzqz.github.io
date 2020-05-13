@@ -23,12 +23,19 @@ h1 {
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   align-content: center;
+  height: 100vh;
 }
 
 section {
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
 }
 
 .social-media {
